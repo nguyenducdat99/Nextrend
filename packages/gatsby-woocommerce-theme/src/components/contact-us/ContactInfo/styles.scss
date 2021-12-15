@@ -1,0 +1,45 @@
+.contact-info {
+  margin-top: 20px;
+  @media (min-width: 768px) {
+    margin-top: -50px;
+    z-index: 3;
+  }
+}
+
+.contact-location-base-header,
+.contact-info {
+  .main-content__item {
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+    padding: 50px 30px;
+    background: #ffff;
+    p,
+    span {
+      color: #1e1e1e;
+    }
+    span.icon i,
+    .custom-calendly-btn span {
+      color: #2aa0f5;
+    }
+    .one-el-content__title {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .main-content-col {
+      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+      margin: 10px 1px;
+    }
+    .main-content__item {
+      flex-direction: column;
+      .info-footer-col {
+        flex-direction: column;
+        .one-el {
+          align-items: center;
+          .one-el-content {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

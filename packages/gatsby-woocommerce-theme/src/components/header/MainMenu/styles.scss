@@ -1,0 +1,120 @@
+.main-menu {
+  display: none;
+  @media (min-width: 576px) {
+    width: 58%;
+    display: block;
+  }
+}
+.menu-list {
+  flex-direction: column;
+  align-items: start;
+  li.menu-item {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0;
+    &[data-name='Product'] a {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 0;
+      .arrow-right {
+        font-size: 1.5rem;
+      }
+    }
+    > a,
+    .home-item,
+    .product-menu-mobile {
+      display: block;
+      margin-right: 70px;
+      font-family: 'WorkSans Bold';
+      font-size: 16px;
+      line-height: 30px;
+      color: #5c5c5c;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      a {
+        color: #5c5c5c;
+      }
+    }
+    a.active {
+      color: #2aa0f5;
+    }
+    a.none-mr {
+      margin-right: 0px;
+    }
+    a:hover {
+      color: #2aa0f5;
+    }
+  }
+  @media (min-width: 576px) {
+    flex-direction: row;
+    align-items: center;
+    li.menu-item {
+      width: auto;
+      border-bottom: none;
+      &[data-name='Product'] > a {
+        display: block;
+        margin-right: 70px;
+      }
+    }
+  }
+}
+.main-menu-modal {
+  top: 0;
+  position: absolute;
+  background: white;
+  overflow: auto;
+  outline: none;
+  padding: 60px 20px 300px 20px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  div.product-menu-mobile.d-flex {
+    margin-right: 0px;
+    a {
+      padding-left: 0;
+    }
+  }
+}
+
+.contact-menu-parent {
+  position: relative;
+  &:hover,
+  &:focus,
+  &:focus-within {
+    .contact-menu {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: opacity 0.3s, visible 0.3s;
+      transition: opacity 0.3s, visible 0.3s;
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+      border-top: 1px solid #e8e8e8;
+    }
+  }
+}
+.contact-menu {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 12px;
+  margin-left: -1rem;
+  padding: 15px 0;
+  z-index: 3;
+  border-top: 1px solid #e8e8e8;
+  background: #ffffff;
+  transition: ease-out;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+
+  ul li {
+    font-weight: 400;
+    padding: 0 4rem 0 1rem;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    &:hover {
+      color: #2aa0f5;
+    }
+  }
+}

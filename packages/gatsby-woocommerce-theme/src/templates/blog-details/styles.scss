@@ -1,0 +1,27 @@
+@import './wordpress-styles.scss';
+.header-blog-detail {
+  position: relative;
+  .bread-crumb-blog-detail {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .bread-crumb ul a {
+    color: #fff;
+  }
+  .banner-top .bg-img:after {
+    opacity: 0.8;
+  }
+}
+
+@media (min-width: 576px) {
+  .content-detail-blog {
+    background: #f8f8f8;
+    .editor-styles-wrapper {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.related-posts {
+  padding: 100px 0px;
+  h2.big-title-section {
+    font-family: "WorkSans";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+    margin-bottom: 50px;
+  }
+  .list-3-post-related {
+    margin-bottom: 60px;
+  }
+  .view-more {
+    cursor: pointer;
+    p {
+      font-family: "Helvetica Now Display Bold";
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 1px;
+      color: #2d2d2d;
+      margin-right: 6px;
+    }
+  }
+}

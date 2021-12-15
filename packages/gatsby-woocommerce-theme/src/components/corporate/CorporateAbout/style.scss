@@ -1,0 +1,50 @@
+.section {
+  padding: 60px 0px;
+}
+.corporate-about {
+  font-family: 'WorkSans';
+  .breadcrum {
+    color: #5c5c5c;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .about-content,
+  .cta-btn {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .about-text,
+    .corporate-about-img {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+    .corporate-about-img {
+      margin-top: 30px;
+    }
+    .cta-btn {
+      display: none;
+    }
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+  .about-content {
+    max-width: 970px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}

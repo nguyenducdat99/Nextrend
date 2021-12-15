@@ -1,0 +1,118 @@
+.detail-project {
+  font-family: 'WorkSans';
+  font-size: 14px;
+  .banner-detail-project {
+    background-color: #e5e5e5;
+    .bread-crumb {
+      margin-top: 30px;
+      margin-bottom: 125px;
+    }
+  }
+  .img-block img {
+    border-radius: 5px;
+  }
+  .product-user {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    .title {
+      justify-content: space-between;
+      h2 {
+        margin-bottom: 0;
+        font-size: 1.3rem;
+      }
+    }
+    .related-products {
+      img {
+        min-height: 265px;
+        @media (max-width: 576px) {
+          min-height: 173px;
+          border-radius: 5px 5px 0px 0px;
+          object-fit: cover;
+        }
+      }
+    }
+    .product-container {
+      border-radius: 5px;
+    }
+  }
+  .related-project {
+    background: #f8f8f8;
+    margin-top: 100px;
+    .big-title {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      color: #2d2d2d;
+    }
+    @media (max-width: 576px) {
+      background: #fff;
+      // margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .big-title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+  .detail-project {
+    .related-project {
+      .big-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  .project-detail-content {
+    .content-project {
+      .big-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #2d2d2d;
+        margin-top: 50px;
+      }
+      .content-desc {
+        font-size: 16px;
+        line-height: 26px;
+        color: #5c5c5c;
+      }
+    }
+    .row__02 {
+      flex-direction: column-reverse;
+    }
+  }
+  .product-user {
+    margin-top: 30px;
+    .related-products {
+      .list-product-user {
+        padding: 0;
+      }
+    }
+    .view-more {
+      display: none;
+    }
+  }
+  .product-container .product-info .product-name {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .action-buttons-container .btn-request {
+    font-size: 10px;
+  }
+  .slick-dots {
+    display: block !important;
+    position: inherit !important;
+    text-align: center !important;
+    bottom: 0;
+  }
+}

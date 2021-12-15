@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-style: normal;
+  src: url("WorkSans/WorkSans-Regular.eot");
+  src: local("WorkSans"), local("WorkSans"),
+    url("WorkSans/WorkSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("WorkSans/WorkSans-Regular.woff2") format("woff2"),
+    url("WorkSans/WorkSans-Regular.woff") format("woff"),
+    url("WorkSans/WorkSans-Regular.ttf") format("truetype"),
+    url("WorkSans/WorkSans-Regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "WorkSans Light";
+  font-display: swap;
+  font-style: normal;
+  src: url("WorkSans/WorkSans-Light.eot");
+  src: local("WorkSans Light"), local("WorkSans-Light"),
+    url("WorkSans/WorkSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("WorkSans/WorkSans-Light.woff2") format("woff2"),
+    url("WorkSans/WorkSans-Light.woff") format("woff"),
+    url("WorkSans/WorkSans-Light.ttf") format("truetype"),
+    url("WorkSans/WorkSans-Light.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "WorkSans Bold";
+  font-display: swap;
+  font-style: normal;
+  src: url("WorkSans/WorkSans-Bold.eot");
+  src: local("WorkSans Bold"), local("WorkSans-Bold"),
+    url("WorkSans/WorkSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("WorkSans/WorkSans-Bold.woff2") format("woff2"),
+    url("WorkSans/WorkSans-Bold.woff") format("woff"),
+    url("WorkSans/WorkSans-Bold.ttf") format("truetype"),
+    url("WorkSans/WorkSans-Bold.svg#Lato") format("svg");
+}
+
+
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('HelveticaNowDisplay/HelveticaNowDisplay-Regular.eot');
+  src: local('Helvetica Now Display Regular'), local('HelveticaNowDisplay-Regular'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff') format('woff'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('HelveticaNowDisplay/HelveticaNowDisplay-Bold.eot');
+  src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff'),
+    url('HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-style: normal;
+  src: url("Montserrat/Montserrat-Regular.eot");
+  src: local("Montserrat"), local("Montserrat"),
+    url("Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("Montserrat/Montserrat-Regular.woff") format("woff"),
+    url("Montserrat/Montserrat-Regular.ttf") format("truetype"),
+    url("Montserrat/Montserrat-Regular.svg#Lato") format("svg");
+}

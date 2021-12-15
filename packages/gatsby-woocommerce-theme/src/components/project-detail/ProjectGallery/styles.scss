@@ -1,0 +1,148 @@
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 500ms ease-in-out;
+  .project-gallery-slider.Modal {
+    padding: 0;
+    background: none;
+    border: none;
+    overflow: hidden;
+    img {
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.project-gallery-slider {
+  text-align: center;
+  // img {
+  // max-height: 100vh;
+  // width: auto;
+  // }
+  .arrow-previous {
+    position: absolute;
+    left: 0;
+    top: 46%;
+  }
+  .arrow-next {
+    position: absolute;
+    right: 0;
+    top: 46%;
+  }
+  .btn-close-gallery {
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 25px !important;
+    margin-right: 20px !important;
+    padding: 0px;
+    background-color: #2d2d2d;
+    border: none;
+    svg {
+      font-size: 1.5em;
+      fill: #fff;
+    }
+  }
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -5px;
+    margin-right: -5px;
+  }
+  .btn-gallery {
+    border: none;
+    background: none;
+    padding: 0;
+    svg {
+      font-size: 4em;
+      fill: #554c4c;
+    }
+  }
+  .btn-gallery:hover {
+    svg {
+      fill: rgb(189, 188, 188);
+    }
+  }
+}
+.project-gallery {
+  .card-columns.project-card-gallery {
+    column-count: 2;
+    .card {
+      break-inside: avoid-column;
+    }
+  }
+  img {
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.2;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .project-gallery {
+    .card-columns.project-card-gallery {
+      column-count: 5;
+    }
+  }
+}
+
+.disable-scroll1 {
+  position: relative;
+  overflow: hidden;
+}
+.disable-scroll2 {
+  position: relative;
+  overflow: hidden;
+  padding-right: 0px;
+}
+
+.project-gallery-custom {
+  .slick-track {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+  }
+  .slick-slider svg {
+    cursor: pointer;
+    transform: scale(5);
+    display: block;
+    color: #fff;
+    z-index: 5;
+  }
+  .slick-prev {
+    left: 40px;
+  }
+  .slick-next {
+    right: 40px;
+  }
+  img {
+    width: 50% !important;
+    // height: auto;
+  }
+}

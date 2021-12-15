@@ -1,0 +1,36 @@
+.customer-care {
+  color: #5c5c5c;
+  background: #f8f8f8;
+  .title {
+    margin-bottom: 30px;
+  }
+  .highlight {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  li {
+    color: #2aa0f5;
+    span {
+      color: #5c5c5c;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+  .part {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: left !important;
+    }
+    li::marker {
+      margin-right: 1px;
+    }
+  }
+}

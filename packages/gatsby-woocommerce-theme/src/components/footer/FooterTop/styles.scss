@@ -1,0 +1,31 @@
+.footer__top {
+  padding: 30px 0px;
+  border-top: 1px solid #e5e5e5;
+
+  .logo-footer {
+    max-width: 170px;
+    margin: 10px auto;
+  }
+  p.title-side-right {
+    font-family: 'WorkSans';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center !important;
+    color: #5c5c5c;
+  }
+
+  @media (min-width: 577px) {
+    text-align: left;
+    .logo-footer {
+      margin-left: 0;
+    }
+    .title-side-right {
+      text-align: right;
+    }
+  }
+  @media (max-width:576px) {
+      border-top: none;
+  }
+}

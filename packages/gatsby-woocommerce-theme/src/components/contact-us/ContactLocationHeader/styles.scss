@@ -1,0 +1,30 @@
+div.contact-location-base-header {
+  padding-top: 0;
+  div.map-col {
+    position: relative;
+    img {
+      max-height: 866px;
+    }
+  }
+  .main-content__item {
+    padding: 25px;
+  }
+  @media (min-width: 768px) {
+    div.main-content-col {
+      position: absolute;
+      min-width: 350px;
+      left: 40%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  @media (max-width: 768px) {
+    img {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .main-content-col {
+      margin-top: 0;
+    }
+  }
+}

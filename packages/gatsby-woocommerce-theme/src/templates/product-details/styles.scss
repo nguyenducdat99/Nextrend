@@ -1,0 +1,62 @@
+.product-detail-page {
+  font-family: "worksans";
+  font-size: 18px;
+  .product-relatives-container {
+    &-top {
+      padding: 3rem 0;
+    }
+  }
+  .row {
+    margin-bottom: 60px;
+  }
+  .product-relatives-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 42.23px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+  }
+  .see-all-btn {
+    font-size: 14px;
+  }
+  @media (min-width: 576px) {
+    .product-relatives-title {
+      font-size: 36px;
+    }
+    .see-all-btn {
+      font-weight: 600;
+      margin-right: 5px;
+    }
+    margin-top: 60px;
+    .related-project {
+      margin-top: 150px;
+      .big-title {
+        margin-bottom: 40px;
+      }
+    }
+    div.view-more {
+      margin: 0 auto;
+      margin-right: 0;
+    }
+  }
+}
+@media (max-width: 575px) {
+  // Slider
+  .product-detail-page {
+    .product-relatives-container {
+      &-top {
+        padding: 0;
+      }
+      .slick-dots {
+        display: block !important;
+        position: inherit !important;
+        text-align: center !important;
+        bottom: 0;
+      }
+    }
+  }
+
+  .action-buttons-container .action-text {
+    font-size: 7px;
+  }
+}

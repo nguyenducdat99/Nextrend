@@ -1,0 +1,30 @@
+{
+	"name": "site",
+	"version": "2.0.1",
+	"description": "Nextrend.com.au",
+	"main": "gatsby-config.js",
+	"scripts": {
+		"build": "cross-env GATSBY_CONCURRENT_DOWNLOAD=200 gatsby build",
+		"build:clean": "npm run clean && npm run build",
+		"dev": "cross-env GATSBY_CONCURRENT_DOWNLOAD=200 gatsby develop",
+		"dev:clean": "npm run clean && npm run dev",
+		"clean": "gatsby clean",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+		"start": "npm run dev",
+		"serve": "gatsby serve",
+		"test": "jest",
+		"test:debug": "jest --runInBand",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage=true",
+		"test:update": "jest --verbose --updateSnapshot"
+	},
+	"author": "Ted To",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"gatsby": "^2.29.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	},
+	"devDependencies": {}
+}

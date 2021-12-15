@@ -1,0 +1,11 @@
+@mixin not-desktop {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+.blog-banner {
+  @include not-desktop {
+    display: none;
+  }
+}

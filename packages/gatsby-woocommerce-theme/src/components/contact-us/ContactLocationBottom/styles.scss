@@ -1,0 +1,42 @@
+div.contact-location-our-team {
+  padding-top: 0;
+  padding-bottom: 60px;
+  .title {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+  }
+  .sub-text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+  }
+  .cta-btn {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    font-weight: 600;
+  }
+  .name {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+  }
+  .position {
+    font-size: 16px;
+    line-height: 26px;
+    color: #999999;
+  }
+  .slick-dots {
+    text-align: center !important;
+  }
+}

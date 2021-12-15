@@ -1,0 +1,58 @@
+.popup-quote-form {
+  .sub-text {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+    @media (max-width: 576px) {
+      font-size: 24px;
+    }
+  }
+  .btn-submit {
+    justify-content: space-between;
+    align-items: center;
+    .view-more {
+      margin: 0;
+    }
+  }
+  // .btn-submit button {
+  //   background: #0c71c3;
+  // }
+
+  div {
+    color: red;
+  }
+  .error {
+    text-align: left;
+  }
+  .btn-submit {
+    margin-top: 1rem;
+  }
+  input,
+  textarea {
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  textarea {
+    height: 120px;
+  }
+
+  @media (max-width: 576px) {
+    .btn-submit {
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import '../../../fonts/fonts.css';
+@import '../../../sass/0-settings/colors';
+.header__top {
+  position: relative;
+  border-bottom: 1px solid $color__light-grey;
+  font-size: 10px;
+  font-family: 'WorkSans';
+  .header-top-left {
+    padding: 8px 0px;
+    color: $color__text-dark;
+
+    .header-top-left__side-right {
+      font-family: 'WorkSans Light';
+    }
+  }
+  .header-top-right {
+    transition: 0.3s;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    background-color: $color__light-blue;
+    padding: 9px 13px;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    p {
+      font-size: 12px;
+      color: $white;
+      text-transform: uppercase;
+    }
+    &:hover {
+      background-color: #2690dd;
+    }
+  }
+  @media (min-width: 576px) {
+    .header-top-right {
+      padding: 8px 62px;
+    }
+  }
+}

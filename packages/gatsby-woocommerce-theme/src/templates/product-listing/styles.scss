@@ -1,0 +1,29 @@
+.load-more-btn {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .product-list-pagination {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .products-containers .pagination {
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .load-more-btn {
+    display: none !important;
+  }
+}
+
+.product-listing-banner {
+  .products-banner {
+    .products-banner-title {
+      text-align: left;
+    }
+  }
+}
